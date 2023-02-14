@@ -1,0 +1,13 @@
+epochs: 7
+lstm_hidden_dimension: 768
+batch_size: 128
+d_a: 512
+embed_size: 768
+learning_rate: 0.001
+decay_per_step: 287
+decay_rate: 0.7
+n_classes: 5
+kernel_size: [2, 3, 4, 5]
+kernel_num: [384, 384, 384, 384]
+GPU: True
+use_cuda: True
